@@ -1,28 +1,28 @@
-package com.example.dotgeneration;
+package com.example.itrail;
 
 public class Coordinates {
-    float row;
-    float column;
+    int row;
+    int column;
 
 
-    Coordinates(float row, float column){
+    Coordinates(int row, int column){
         this.column = column;
         this.row = row;
     }
 
-    public void setColumn(float column){
+    public void setColumn(int column){
         this.column = column;
     }
 
-    public void setRow(float row){
+    public void setRow(int row){
         this.row = row;
     }
 
-    public float getRow(){
+    public int getRow(){
         return row;
     }
 
-    public float getColumn(){
+    public int getColumn(){
         return column;
     }
 
